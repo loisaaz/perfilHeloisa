@@ -2,8 +2,6 @@ img{
  width:400px;
  height:300px;
  position: center;
- object-fit: none;
- object-position: 5px 50%;
 }
 body{
     background-color: antiquewhite;
