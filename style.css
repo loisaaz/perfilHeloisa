@@ -3,3 +3,7 @@ img{
  height:200px;
  position: center;
 }
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
