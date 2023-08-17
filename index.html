@@ -95,7 +95,7 @@
 </p>
 </footer>
 
-<p><b>FORMULÁRIO</b> A</p>
+<p><b>FORMULÁRIO</b> - A</p>
 <form>
     Nome:<br />
     <input type="text" name="nome" value="Heloisa"/> <br /><br />
@@ -107,19 +107,26 @@
     <button type="submit">Enviar</button>
  </form>
  
- <p><b>FORMULÁRIO</b>- B - <b>ATIVO</b></p>
- <p>Formulário da Heloisa:</p>
- <form>
-    Nome:<br />
-    <input type="text" name="nome" value=""/> <br /><br />
-    Sobrenome: <br />
-    <input type="text" name="sobrenome" value=""/> <br /> <br />
-Email: <br />
-<input type="email" required multiple> <br /> <br />
-    Data de Aniversário:
-<input type="date" nome="nascimento" min="1930-01-01" max="2020-12-31"> <br /> <br /> 
-    <button type="submit">Enviar</button>
- </form>
+ <p><b>FORMULÁRIO</b> - B - <b>ATIVO</b></p>
+
+<form action="/action_page.php">
+ <fieldset> 
+  <legend>Formulário da Heloisa:</legend>
+  <label for="fname">Primeiro nome:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Último nome:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Data de aniversário:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <input type="Enviar" value="Submit">
+ </fieldset>
+</form>
+
+</body>
+</html>
+
 
 <script src="script.js"></script>    
 </body>
