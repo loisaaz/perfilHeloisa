@@ -92,6 +92,7 @@
                 </tr>
         </tbody>
         </table>
+        <hr />
         <p><b>FORMULÁRIO</b> - A</p>
         <form>
             Nome:<br />
@@ -102,9 +103,9 @@
         <small>Não precisa comentar, é só um exemplo:</small> <br/>
             <textarea rows="5" cols="30"></textarea> <br/>
             <button type="submit">Enviar</button>
-        </form>
+        </form><hr />
         
-        <p><b>FORMULÁRIO</b> - B - <b>ATIVO</b></p>
+        <p>Outro tipo de FORMULÁRIO - B - <b>ATIVO</b> sendo que dá pra escrever dentro dele:</p>
         <div>
             <form>
                 <fieldset enabled> 
@@ -118,10 +119,10 @@
                 <label for="birthday">Data de aniversário:</label>
                 <input type="date" id="birthday" name="birthday"><br><br>
                 <input type="submit" value="Enviar">
-                </fieldset>
+                </fieldset><hr />
             </form>
         </div> 
-        <p><b>FORMULÁRIO</b> - B - <b>INATIVO</b></p>
+        <p>Outro tipo de FORMULÁRIO - B - <b>INATIVO</b> sendo que não dá pra escrever dentro dele:</p>
         <div>
             <form action="#">
                 <fieldset disabled> 
@@ -142,7 +143,8 @@
             <figure>
                 <img src="https://i.postimg.cc/hPsLrBQf/estudantes.jpg" alt="estudantes.jpg" style="width:100%">
                 <figcaption>Fig.1 - Estudantes</figcaption>
-            </figure>
+            </figure><hr />
+            
         </div>
         <p>Opção usando um input tipo <b>CHECKBOX</b></p>
         <div>
@@ -153,7 +155,8 @@
                 <label for="vehicle2">Você tem uma bicicleta?</label><br>
                 <input type="checkbox" id="vehicle3" name="vehicle3" value="moto">
                 <label for="vehicle3">Você tem uma moto?</label><br><br>
-            </form>
+            </form><hr />
+            
         </div>
         <p>Opção usando um input tipo <b>RADIO</b></p>
         <div>
@@ -166,7 +169,7 @@
               <input type="radio" id="javascript" name="fav_language" value="JavaScript">
               <label for="javascript">JavaScript</label>
             
-                <br>  
+                <br><hr />  
             
                 <p>Por favor selecione a sua idade:</p>
                 <input type="radio" id="age1" name="age" value="30">
@@ -176,17 +179,18 @@
                 <input type="radio" id="age3" name="age" value="100">
                 <label for="age3">61 - 90</label><br><br>
                 <input type="submit" value="Enviar">
-            </form>
+            </form><hr />
         </div>
+        
         <p>Opção usando um input tipo <b>PASSWORD</b></p>
         <div>
             <form action="#">
                 Senha:
-                <input type="password" name="senha"> <br/>
-                Confirmação: 
-                <input type="password" name="confirmação">
+                Confirmação:<input type="password" name="senha"> <!--<br/>--> 
+                <!--<input type="password" name="confirmação">-->
                 <small>Digite alguns números para ver</small> <br/>
-            </form>
+            </form><hr />
+            
         </div>
         <p>Opção usando um input tipo <b>COLOR</b></p>
         <div>
@@ -202,26 +206,30 @@
                 <input type="color" name="cor" value="#ff4d4d">
                 <input type="color" name="cor" value="#ff3333">
                 <input type="color" name="cor" value="#ff1a1a">
-            </form>
+            </form><hr />
         </div>
+        
         <p>Opção usando um input tipo <b>NUMBER</b></p>
         <div>
             <form>
                 Ano de nascimento: <small> Selecione o ano de seu nascimento, obs: vc pode digitar tbm se quiser.</small>
                 <input type="number" name="ano" min="1910" max="2023">
-            </form>
+            </form><hr />
         </div>
+        
         <p>Opção usando um input tipo <b>RANGE</b></p>
         <div>
             <form>
                 <input type="range" name="barra" required min="0" max="1000" step="100">
-            </form>
+            </form><hr />
         </div>
+        
         <p>Opção usando um input tipo <b>TIME</b></p>
+        
         <div>
             <form>
                 <input type="time" name="horaConsulta" required>
-            </form>
+            </form><hr />
         </div>
 
         <footer>
