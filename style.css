@@ -26,3 +26,8 @@ color b{
 color c{
     color: #ff9900;
 }
+figure{
+    border: 1px color:#cccccc solid;
+    width: 50%;
+    
+}
