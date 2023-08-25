@@ -35,17 +35,13 @@ color c{
     color: #ff9900;
 }
 
-.macaco{
+figure img{ 
     border: 1px;
     border-style: solid;
     color: #cccccc;
     border-width: 50%;
     padding: 4px;
     margin: auto;
-    border-radius: 50%;
-}
-
-img{
     border-radius: 50%;
 }
 
