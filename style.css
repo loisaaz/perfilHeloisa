@@ -31,8 +31,40 @@ color c{
     color: #ff9900;
 }
 
-/*figure{
-    border: 1px color: #cccccc solid;
-    width: 50%;
-    
-}*/
+figure{
+    border: 1px;
+    border-style: solid;
+    color: #cccccc;
+    border-width: 50%;
+    padding: 4px;
+    margin: auto;
+}
+
+figcaption{
+background-color:#000000;
+color: white;
+padding: 2px;
+text-align: center;
+}
+
+table{
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+    text-align: cente
+}
+
+td, th {
+    padding: .7em;
+    margin: 0;
+    border: 1px solid #ccc;
+    /*border: 1px solid #ccc;*/
+    text-align: center;
+  }
+  
+  tr{
+    background-color: #ff0000;
+  }
+  td{
+    background-color: #f0f0f0;
+  }
