@@ -33,7 +33,7 @@ color c{
 
 figure{
     border: 1px;
-    border-style: solid;
+    /*border-style: solid;*/
     color: #cccccc;
     border-width: 50%;
     padding: 4px;
