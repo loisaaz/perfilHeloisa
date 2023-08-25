@@ -33,7 +33,7 @@ color c{
 
 figure{
     border: 1px;
-    /*border-style: solid;*/
+    border-style: solid;
     color: #cccccc;
     border-width: 50%;
     padding: 4px;
@@ -46,14 +46,14 @@ background-color:#000000;
 color: white;
 padding: 2px;
 text-align: center;
-border-radius: 50%;
+font-style: italic;
 }
 
 table{
     width: 100%;
     margin-bottom : .5em;
     table-layout: fixed;
-    text-align: cente
+    text-align: center;
 }
 
 td, th {
@@ -75,7 +75,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-image: linear-gradient(white, #c26861);
     color: white;
     text-align: center;
  }
