@@ -45,6 +45,10 @@ color c{
     border-radius: 50%;
 }
 
+img{
+    border-radius: 50%;
+}
+
 figcaption{
 background-color:#000000;
 color: white;
