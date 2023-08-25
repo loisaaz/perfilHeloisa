@@ -8,242 +8,224 @@
     <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">-->
 </head>
 <body>
-<main>
-<div class="container">
-
+    <main>
+        <div class="container">
             <div class="esquerdo">
                 <h3>Este será o meu perfil descrito na matéria Interface para Web I, terceiro bimestre do curso informática para internet</h3>
-                <img src="https://i.postimg.cc/RFDykwBG/minhafotoo-removebg-preview.png" alt="Minha foto">
+                    <img src="https://i.postimg.cc/RFDykwBG/minhafotoo-removebg-preview.png" alt="Minha foto">
             </div>
-            <p>Algumas informações sobre mim</p>
-
-        <p>
-        <div>
-        <table border="1">
-            <caption>Algumas informações sobre mim</caption>
-            <thead>
-            <tbody>
-                <tr style="text-transform: uppercase; font-weight: bold; color:  #c26861; ">
-                    <td>Nome</td>
-                    <td>Idade</td>
-                    <td>Comida Favorita</td>
-                    <td>Filme Favorita</td>
-                    <td>Serie Favorita</td>
-                </tr>
-            </thead>
-                <tr>
-                    <td>Heloisa</td>
-                    <td>17 anos</td>
-                    <td>Comida Japonesa</td>
-                    <td>Interstellar</td>
-                    <td>Breaking Bead</td>
-                </tr>
-        </tbody>
-        <tfoot>
-        </tfoot>
-        </table>
+                <p>Algumas informações sobre mim</p>
+                <div>
+                    <table border="1">
+                        <caption>Algumas informações sobre mim</caption>
+                            <thead>
+                                <tr style="text-transform:uppercase;font-weight:bold;color:#c26861;">
+                                    <td>Nome</td>
+                                    <td>Idade</td>
+                                    <td>Comida Favorita</td>
+                                    <td>Filme Favorita</td>
+                                    <td>Serie Favorita</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Heloisa</td>
+                                    <td>17 anos</td>
+                                    <td>Comida Japonesa</td>
+                                    <td>Interstellar</td>
+                                    <td>Breaking Bead</td>
+                                </tr>
+                            </tbody>
+                    </table>
+                </div>
+                    <table border="1">
+                        <caption>Algumas Tags HTML</caption>
+                        <thead>
+                            <tr>
+                                <td>h1</td>
+                                <td>table</td>    
+                                <td>body</td>
+                                <td>caption</td>
+                                <td>tr</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>&#60;td&#62;</td>
+                                <td>&#60;main&#62;</td>
+                                <td>&#60;body&#62;</td>
+                                <td>&#60;cite&#62;</td>
+                                <td>&#60;code&#62;</td>
+                            </tr>
+                                <tr>
+                                    <td>&#60;a&#62;</td>
+                                    <td>&#60;abbr&#62;</td>
+                                    <td>&#60;area&#62;</td>
+                                    <td>&#60;article&#62;</td>
+                                    <td>&#60;aside&#62;</td>
+                                </tr>
+                                    <tr>
+                                        <td>&#60;audio&#62;</td>
+                                        <td>&#60;dl&#62;</td>
+                                        <td>&#60;dt&#62;</td>
+                                        <td>&#60;figure&#62;</td>
+                                        <td>&#60;frame&#62;</td>
+                                    </tr>
+                                        <tr>
+                                            <td>&#60;style=&#34;...&#34;&#62;</td>
+                                            <td>&#60;title=&#34;...&#34;&#62;</td> 
+                                            <td>&#60;alt=&#34;...&#34;&#62;</td> 
+                                            <td>&#60;align=&#34;...&#34;&#62;</td> 
+                                            <td>&#60;width=&#34;...&#34;&#62;</td> 
+                                        </tr>
+                                            <tr>
+                                                <td>&#60;height=&#34;...&#34;&#62;</td>
+                                                <td>&#60;main&#62;&#60;/main&#62;</td>
+                                                <td>&#60;footer&#62;&#60;/footer&#62;</td>   
+                                                <td>&#60;div&#62;&#60;/div&#62;</td>
+                                                <td>&#60;section&#62;&#60;/section&#62;</td>
+                                            </tr>
+                        </tbody>
+                    </table>
+                <hr />
+                <p><b>FORMULÁRIO</b> - <color><a>A</a></color></p>
+                <form>
+                    Nome:<br />
+                        <input type="text" name="nome" value="Heloisa"/> <br /><br />
+                    Sobrenome: <br />
+                        <input type="text" name="sobrenome" value="Lacerda"/> <br /> <br />
+                    Comentários:<br />
+                        <small>Não precisa comentar, é só um exemplo:</small> <br/>
+                        <textarea rows="5" cols="30"></textarea> <br/>
+                        <button type="submit">Enviar</button>
+                </form><hr />
+                <p>Outro tipo de FORMULÁRIO - <color><b>B</color></b> - <b>ATIVO</b> sendo que dá pra escrever dentro dele:</p>
+                <div>
+                    <form>
+                        <fieldset enabled> 
+                        <legend>Formulário da Heloisa:</legend>
+                        <label for="fname">Primeiro nome:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="lname">Último nome:</label>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br><br>
+                        <label for="birthday">Data de aniversário:</label>
+                        <input type="date" id="birthday" name="birthday"><br><br>
+                        <input type="submit" value="Enviar">
+                        </fieldset><hr />
+                    </form>
+                </div> 
+                <p>Outro tipo de FORMULÁRIO - <color><c>C</color></c> - <b>INATIVO</b> sendo que não dá pra escrever dentro dele:</p>
+                <div>
+                    <form action="#">
+                        <fieldset disabled> 
+                        <legend>Formulário da Heloisa:</legend>
+                        <label for="fname">Primeiro nome:</label>
+                        <input type="text" id="fname" name="fname"><br><br>
+                        <label for="lname">Último nome:</label>
+                        <input type="text" id="lname" name="lname"><br><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"><br><br>
+                        <label for="birthday">Data de aniversário:</label>
+                        <input type="date" id="birthday" name="birthday"><br><br>
+                        </fieldset>
+                    </form>
+                </div>
+                <div>
+                    <figure>
+                        <img src="https://i.postimg.cc/hPsLrBQf/estudantes.jpg" alt="estudantes.jpg" style="width:100%">
+                        <figcaption>Fig.1 - Estudantes</figcaption>
+                    </figure><hr />
+                    
+                </div>
+                <p>Opção usando um input tipo <b>CHECKBOX</b></p>
+                <div>
+                    <form action="#">
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="carro">
+                        <label for="vehicle1">Você tem um carro?</label><br>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="bicicleta"checked>
+                        <label for="vehicle2">Você tem uma bicicleta?</label><br>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="moto">
+                        <label for="vehicle3">Você tem uma moto?</label><br><br>
+                    </form><hr />                  
+                </div>
+                <p>Opção usando um input tipo <b>RADIO</b></p>
+                <div>
+                    <form action="#">
+                        <p>Por favor selecione uma linguagem de marcação/programação favorita:</p>
+                      <input type="radio" id="html" name="fav_language" value="HTML">
+                      <label for="html">HTML</label><br>
+                      <input type="radio" id="css" name="fav_language" value="CSS">
+                      <label for="css">CSS</label><br>
+                      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                      <label for="javascript">JavaScript</label>                   
+                        <br><hr />                     
+                        <p>Por favor selecione a sua idade:</p>
+                        <input type="radio" id="age1" name="age" value="30">
+                        <label for="age1">10 - 30</label><br>
+                        <input type="radio" id="age2" name="age" value="60">
+                        <label for="age2">31 - 60</label><br>  
+                        <input type="radio" id="age3" name="age" value="100">
+                        <label for="age3">61 - 90</label><br><br>
+                        <input type="submit" value="Enviar">
+                    </form><hr />
+                </div>               
+                <p>Opção usando um input tipo <b>PASSWORD</b></p>
+                <div>
+                    <form action="#">
+                        Senha:
+                        Confirmação:<input type="password" name="senha"> <!--<br/>--> 
+                        <!--<input type="password" name="confirmação">-->
+                        <small>Digite alguns números para ver</small> <br/>
+                    </form><hr />
+                    
+                </div>
+                <p>Opção usando um input tipo <b>COLOR</b></p>
+                <div>
+                    <form>
+                        Selecione uma cor:
+                        <input type="color" name="cor" value="#ffffff">
+                        <input type="color" name="cor" value="#ffe6e6">
+                        <input type="color" name="cor" value="#ffcccc">
+                        <input type="color" name="cor" value="#ffb3b3">
+                        <input type="color" name="cor" value="#ff9999">
+                        <input type="color" name="cor" value="#ff8080">
+                        <input type="color" name="cor" value="#ff6666">
+                        <input type="color" name="cor" value="#ff4d4d">
+                        <input type="color" name="cor" value="#ff3333">
+                        <input type="color" name="cor" value="#ff1a1a">
+                    </form><hr />
+                </div>
+                
+                <p>Opção usando um input tipo <b>NUMBER</b></p>
+                <div>
+                    <form>
+                        Ano de nascimento: <small> Selecione o ano de seu nascimento, obs: vc pode digitar tbm se quiser.</small>
+                        <input type="number" name="ano" min="1910" max="2023">
+                    </form><hr />
+                </div>             
+                <p>Opção usando um input tipo <b>RANGE</b></p>
+                <div>
+                    <form>
+                        <input type="range" name="barra" required min="0" max="1000" step="100">
+                    </form><hr />
+                </div>               
+                <p>Opção usando um input tipo <b>TIME</b></p>                
+                <div>
+                    <form>
+                        <input type="time" name="horaConsulta" required>
+                    </form><hr />
+                </div>
+                <footer>
+                    <p>Autor: Heloisa Lacerca M.</p>
+                    <p>
+                        <a href="mailto: heloisalacerda23@gmail.com">Heloisalacerda23@gmail.com</a>
+                    </p>
+                </footer>
+            <!-- <script defer src="script.js"></script>-->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>           
         </div>
-        </p>
-
-        <table border="1">
-        <caption>Algumas Tags HTML</caption>
-        <thead>
-        <tbody>
-                <tr>
-                    <td>h1</td>
-                    <td>table</td>    
-                    <td>body</td>
-                    <td>caption</td>
-                    <td>tr</td>
-                </tr>
-            </thead>
-                    <td>&#60;td&#62;</td>
-                    <td>&#60;main&#62;</td>
-                    <td>&#60;body&#62;</td>
-                    <td>&#60;cite&#62;</td>
-                    <td>&#60;code&#62;</td>
-                    <tr>
-                        <td>&#60;a&#62;</td>
-                        <td>&#60;abbr&#62;</td>
-                        <td>&#60;area&#62;</td>
-                        <td>&#60;article&#62;</td>
-                        <td>&#60;aside&#62;</td>
-                    </tr>
-                    <tr>
-                        <td>&#60;audio&#62;</td>
-                        <td>&#60;dl&#62;</td>
-                        <td>&#60;dt&#62;</td>
-                        <td>&#60;figure&#62;</td>
-                        <td>&#60;frame&#62;</td>
-                    </tr>
-            <tr>
-                <td>&#60;style=&#34;...&#34;&#62;</td>
-                <td>&#60;title=&#34;...&#34;&#62;</td> 
-                <td>&#60;alt=&#34;...&#34;&#62;</td> 
-                <td>&#60;align=&#34;...&#34;&#62;</td> 
-                <td>&#60;width=&#34;...&#34;&#62;</td> 
-            </tr>
-                <tr>
-                    <td>&#60;height=&#34;...&#34;&#62;</td>
-                    <td>&#60;main&#62;&#60;/main&#62;</td>
-                    <td>&#60;footer&#62;&#60;/footer&#62;</td>   
-                    <td>&#60;div&#62;&#60;/div&#62;</td>
-                    <td>&#60;section&#62;&#60;/section&#62;</td>
-                </tr>
-        </tbody>
-        </table>
-        <hr />
-        <p><b>FORMULÁRIO</b> - <color><a>A</a></color></p>
-        <form>
-            Nome:<br />
-            <input type="text" name="nome" value="Heloisa"/> <br /><br />
-            Sobrenome: <br />
-            <input type="text" name="sobrenome" value="Lacerda"/> <br /> <br />
-            Comentários:<br />
-        <small>Não precisa comentar, é só um exemplo:</small> <br/>
-            <textarea rows="5" cols="30"></textarea> <br/>
-            <button type="submit">Enviar</button>
-        </form><hr />
-        
-        <p>Outro tipo de FORMULÁRIO - <color><b>B</color><b> - <b>ATIVO</b> sendo que dá pra escrever dentro dele:</p>
-        <div>
-            <form>
-                <fieldset enabled> 
-                <legend>Formulário da Heloisa:</legend>
-                <label for="fname">Primeiro nome:</label>
-                <input type="text" id="fname" name="fname"><br><br>
-                <label for="lname">Último nome:</label>
-                <input type="text" id="lname" name="lname"><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
-                <label for="birthday">Data de aniversário:</label>
-                <input type="date" id="birthday" name="birthday"><br><br>
-                <input type="submit" value="Enviar">
-                </fieldset><hr />
-            </form>
-        </div> 
-        <p>Outro tipo de FORMULÁRIO - <color><c>C</color></c> - <b>INATIVO</b> sendo que não dá pra escrever dentro dele:</p>
-        <div>
-            <form action="#">
-                <fieldset disabled> 
-                <legend>Formulário da Heloisa:</legend>
-                <label for="fname">Primeiro nome:</label>
-                <input type="text" id="fname" name="fname"><br><br>
-                <label for="lname">Último nome:</label>
-                <input type="text" id="lname" name="lname"><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
-                <label for="birthday">Data de aniversário:</label>
-                <input type="date" id="birthday" name="birthday"><br><br>
-                </fieldset>
-            </form>
-        </div>
-
-        <div>
-            <figure>
-                <img src="https://i.postimg.cc/hPsLrBQf/estudantes.jpg" alt="estudantes.jpg" style="width:100%">
-                <figcaption>Fig.1 - Estudantes</figcaption>
-            </figure><hr />
-            
-        </div>
-        <p>Opção usando um input tipo <b>CHECKBOX</b></p>
-        <div>
-            <form action="#">
-                <input type="checkbox" id="vehicle1" name="vehicle1" value="carro">
-                <label for="vehicle1">Você tem um carro?</label><br>
-                <input type="checkbox" id="vehicle2" name="vehicle2" value="bicicleta"checked>
-                <label for="vehicle2">Você tem uma bicicleta?</label><br>
-                <input type="checkbox" id="vehicle3" name="vehicle3" value="moto">
-                <label for="vehicle3">Você tem uma moto?</label><br><br>
-            </form><hr />
-            
-        </div>
-        <p>Opção usando um input tipo <b>RADIO</b></p>
-        <div>
-            <form action="#">
-                <p>Por favor selecione uma linguagem de marcação/programação favorita:</p>
-              <input type="radio" id="html" name="fav_language" value="HTML">
-              <label for="html">HTML</label><br>
-              <input type="radio" id="css" name="fav_language" value="CSS">
-              <label for="css">CSS</label><br>
-              <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-              <label for="javascript">JavaScript</label>
-            
-                <br><hr />  
-            
-                <p>Por favor selecione a sua idade:</p>
-                <input type="radio" id="age1" name="age" value="30">
-                <label for="age1">10 - 30</label><br>
-                <input type="radio" id="age2" name="age" value="60">
-                <label for="age2">31 - 60</label><br>  
-                <input type="radio" id="age3" name="age" value="100">
-                <label for="age3">61 - 90</label><br><br>
-                <input type="submit" value="Enviar">
-            </form><hr />
-        </div>
-        
-        <p>Opção usando um input tipo <b>PASSWORD</b></p>
-        <div>
-            <form action="#">
-                Senha:
-                Confirmação:<input type="password" name="senha"> <!--<br/>--> 
-                <!--<input type="password" name="confirmação">-->
-                <small>Digite alguns números para ver</small> <br/>
-            </form><hr />
-            
-        </div>
-        <p>Opção usando um input tipo <b>COLOR</b></p>
-        <div>
-            <form>
-                Selecione uma cor:
-                <input type="color" name="cor" value="#ffffff">
-                <input type="color" name="cor" value="#ffe6e6">
-                <input type="color" name="cor" value="#ffcccc">
-                <input type="color" name="cor" value="#ffb3b3">
-                <input type="color" name="cor" value="#ff9999">
-                <input type="color" name="cor" value="#ff8080">
-                <input type="color" name="cor" value="#ff6666">
-                <input type="color" name="cor" value="#ff4d4d">
-                <input type="color" name="cor" value="#ff3333">
-                <input type="color" name="cor" value="#ff1a1a">
-            </form><hr />
-        </div>
-        
-        <p>Opção usando um input tipo <b>NUMBER</b></p>
-        <div>
-            <form>
-                Ano de nascimento: <small> Selecione o ano de seu nascimento, obs: vc pode digitar tbm se quiser.</small>
-                <input type="number" name="ano" min="1910" max="2023">
-            </form><hr />
-        </div>
-        
-        <p>Opção usando um input tipo <b>RANGE</b></p>
-        <div>
-            <form>
-                <input type="range" name="barra" required min="0" max="1000" step="100">
-            </form><hr />
-        </div>
-        
-        <p>Opção usando um input tipo <b>TIME</b></p>
-        
-        <div>
-            <form>
-                <input type="time" name="horaConsulta" required>
-            </form><hr />
-        </div>
-
-        <footer>
-            <p>Autor: Heloisa Lacerca M.</p>
-            <p>
-                <a href="mailto: heloisalacerda23@gmail.com">Heloisalacerda23@gmail.com</a>
-            </p>
-        </footer>
-
-       <!-- <script defer src="script.js"></script>-->
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-       
-</div>
-
-</main>
+    </main>
 </body>
 </html>
