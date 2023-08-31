@@ -69,7 +69,7 @@ td, th {
   }
   
   tr{
-    background-color: #7e2a2a;
+    background-color: #6a0707;
   }
   td{
     background-color: #f0f0f0;
@@ -79,10 +79,10 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient(white, #7e2a2a);
+    background-image: linear-gradient(white, #6a0707);
     color: rgb(0, 0, 0);
     text-align: center;
  }
  caption{
-    color: #7e2a2a;
+    color: #6a0707;
  }
