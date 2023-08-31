@@ -36,10 +36,8 @@ color c{
 }
 
 figure img{ 
-    border: 1px;
-    border-style: solid;
-    color: #cccccc;
-    border-width: 50%;
+    border: 1px #cccccc solid;
+    width: 50%;
     padding: 4px;
     margin: auto;
     border-radius: 50%;
@@ -79,10 +77,16 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient(white, #6a0707);
+    background-image: linear-gradient(#f0f0f0, #6a0707);
     color: rgb(0, 0, 0);
     text-align: center;
  }
+
+.cabecalho{
+    text-align: center;
+    font-size: 25px;
+}
+
  caption{
     color: #6a0707;
  }
