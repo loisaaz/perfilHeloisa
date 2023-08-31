@@ -35,11 +35,13 @@ color c{
     color: #ff9900;
 }
 
-figure img{ 
+figure{ 
     border: 1px #cccccc solid;
     width: 50%;
     padding: 4px;
     margin: auto;
+}
+figure img{
     border-radius: 50%;
 }
 
