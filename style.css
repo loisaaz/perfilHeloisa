@@ -106,8 +106,11 @@ footer {
 }
 .elemento1 {
     position: center;
-    width: 200px;
-    border: 5px solid red; 
+    width: 320px;
+    border: 5px solid #ff0000; 
     padding: 20px;
-    margin: 20px;
+    margin: auto;
+}
+.box{
+    text-align: center;
 }
