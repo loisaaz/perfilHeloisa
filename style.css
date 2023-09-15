@@ -114,3 +114,20 @@ footer {
 .box{
     text-align: center;
 }
+.boxmodel2{
+    width: 320px;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: auto;
+  }
+  h2{
+    text-align: center;
+  }
+  .boxmodel3{
+    background-color: #3399ff;
+    color: #ffffff;
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    position: left;
+  }
