@@ -128,3 +128,13 @@ footer {
     padding: 10px;
     float: right;
   }
+.exemplo1{
+    background-color:#000000;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-style: italic;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: auto;
+}
