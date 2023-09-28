@@ -138,3 +138,22 @@ footer {
     border: 1px solid grey;
     margin: auto;
 }
+h1{
+    color: #660000;
+  }
+  .titlech{
+  background-color:rgb(56,56,56);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  }
+  .colunas {
+    flex: 1;
+    border: 1px solid black;
+    display: flex;
+  }
+    .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+  }
