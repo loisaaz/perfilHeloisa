@@ -155,5 +155,5 @@ h1{
     .column {
     float: left;
     width: 33.33%;
-    padding: 15px;
+    /*padding: 15px;*/
   }
