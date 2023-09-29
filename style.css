@@ -157,8 +157,9 @@ footer {
   border: 1px solid grey;
   background-color: #f2f2f2;
   align-items: center;
-  width: 250px;
-  height: 250px;
+  /*width: 250px;
+  height: 250px;*/
+  
 }
 .baixodobox {
     background-color:rgb(56,56,56);
