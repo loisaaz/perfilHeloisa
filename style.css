@@ -129,7 +129,7 @@ footer {
     float: right;
     padding: 15px
   }
-.exemplo1{
+  .exemplo1{
     background-color:#000000;
     color: white;
     padding: 2px;
@@ -138,7 +138,7 @@ footer {
     border: 1px solid grey;
     margin: auto;
 }
-h1{
+.texto{
     color: #660000;
   }
   .titlech{
@@ -153,6 +153,8 @@ h1{
     display: flex;
   }
 .column {
-
+  border: 1px solid grey;
+  background-color: #f2f2f2;
+  align-items: center;
 }
 
