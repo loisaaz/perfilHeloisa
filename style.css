@@ -17,6 +17,11 @@ table{
     border: 2px solid black;
     border-radius: 10px;
     padding: 5px;
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+    text-align: center;
+
 }
 
 color a{
@@ -32,7 +37,7 @@ color c{
 }
 
 figure{ 
-    border: 1px #cccccc solid;
+    /*border: 1px #cccccc solid;*/
     width: 50%;
     padding: 4px;
     margin: auto;
@@ -49,12 +54,12 @@ text-align: center;
 font-style: italic;
 }
 
-table{
+/*table{
     width: 100%;
     margin-bottom : .5em;
     table-layout: fixed;
     text-align: center;
-}
+}*/
 
 td, th {
     padding: .7em;
@@ -68,7 +73,8 @@ td, th {
     background-color: #6a0707;
   }
   td{
-    background-color: #f0f0f0;
+    /*background-color: #f0f0f0;*/
+    background-color: #ffffff;
   }
 footer {
     /*position: fixed;*/
@@ -151,7 +157,7 @@ footer {
   }
   .colunas {
     flex: 1;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     display: flex;
   }
 .column {
